@@ -41,7 +41,8 @@ Website_Pro/
 
 ---
 
-
+## License
+This project is open-source. You may modify and use it freely.
 
 
 
