@@ -1,0 +1,122 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: Arial, sans-serif; line-height: 1.6; }
+
+/* HEADER */
+header {
+    background: #222;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+}
+header nav a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+}
+header nav a:hover { color: #ffcc00; }
+.logo { font-size: 1.4rem; }
+
+/* HERO */
+.hero {
+    background: url('transport-bg.jpg') center/cover no-repeat;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+.hero h1 { font-size: 2.5rem; }
+.btn {
+    background: #ffcc00;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.btn:hover { background: #ffaa00; }
+
+/* SERVICES */
+.services {
+    padding: 50px 20px;
+    text-align: center;
+}
+.service-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.card {
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    transition: transform 0.3s;
+}
+.card:hover { transform: translateY(-5px); }
+
+/* ROUTES / MAP */
+.routes { padding: 50px 20px; text-align: center; }
+#map { height: 400px; margin-top: 20px; border-radius: 10px; }
+
+/* ABOUT */
+.about {
+    padding: 50px 20px;
+    background: #eaeaea;
+    text-align: center;
+}
+
+/* CONTACT */
+.contact {
+    padding: 50px 20px;
+    text-align: center;
+}
+.contact form {
+    max-width: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.contact input, .contact textarea {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+.contact button {
+    background: #222;
+    color: white;
+    padding: 10px;
+    border: none;
+}
+.contact button:hover { background: #444; }
+
+/* FOOTER */
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+
+/* ANIMATIONS */
+.fade-in { animation: fadeIn 1s ease-in; }
+.fade-in-delay { animation: fadeIn 1s ease-in 0.5s forwards; opacity: 0; }
+.fade-in-delay2 { animation: fadeIn 1s ease-in 1s forwards; opacity: 0; }
+.slide-up { animation: slideUp 1s ease-in; }
+.slide-up-delay { animation: slideUp 1s ease-in 0.5s forwards; opacity: 0; }
+.slide-up-delay2 { animation: slideUp 1s ease-in 1s forwards; opacity: 0; }
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+@keyframes slideUp {
+    from { opacity: 0; transform: translateY(40px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    .service-cards { flex-direction: column; }
+}
