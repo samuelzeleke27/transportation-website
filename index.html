@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SwiftTrans - Transportation Services</title>
+    <link rel="stylesheet" href="style.css">
+    <!--Loads the Font Awesome icon library so you can use scalable icons (e.g., truck, bus, map markers).
+    ==>cdnjs.com — a free content delivery network hosting open-source libraries. This specific URL is for Font Awesome v6.5.0.-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <!--Loads Leaflet’s CSS, which is needed to style interactive maps.
+    unpkg.com — a CDN that delivers npm packages. This URL specifically serves Leaflet’s CSS file.-->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+</head>
+<body>
+    <!-- HEADER -->
+    <header>
+        <div class="logo"><i class="fa-solid fa-truck"></i> SwiftTrans</div>
+        <nav>
+            <a href="#services">Services</a>
+            <a href="#routes">Routes</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero">
+        <h1 class="fade-in">Your Trusted Transportation Partner</h1>
+        <p class="fade-in-delay">Fast, safe, and reliable deliveries anywhere, anytime.</p>
+        <a href="#contact" class="btn fade-in-delay2">Get a Quote</a>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services" class="services">
+        <h2>Our Services</h2>
+        <div class="service-cards">
+            <div class="card slide-up">
+                <i class="fa-solid fa-truck fa-2x"></i>
+                <h3>Freight Transport</h3>
+                <p>We deliver goods nationwide with speed and safety.</p>
+            </div>
+            <div class="card slide-up-delay">
+                <i class="fa-solid fa-taxi fa-2x"></i>
+                <h3>City Taxi</h3>
+                <p>Reliable and comfortable taxi services in your city.</p>
+            </div>
+            <div class="card slide-up-delay2">
+                <i class="fa-solid fa-ship fa-2x"></i>
+                <h3>Logistics Solutions</h3>
+                <p>We manage your supply chain efficiently and affordably.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ROUTES / MAP -->
+    <section id="routes" class="routes">
+        <h2>Our Routes</h2>
+        <div id="map"></div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>With over 10 years of experience, SwiftTrans connects businesses and people by offering professional transportation solutions tailored to your needs.</p>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2025 SwiftTrans. All rights reserved.</p>
+    </footer>
+
+    <!-- JS -->
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
