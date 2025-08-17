@@ -12,7 +12,9 @@ It showcases services, routes with an interactive map (Leaflet), company info, a
 ---
 ## Project Structure
 Website_Pro/
-│── index.html # Main HTML structure
-│── style.css # Styling (layout, animations, responsiveness)
-│── script.js # Interactive map functionality
-│── transport-bg.jpg (background image, optional)
+- index.html # Main HTML structure
+- style.css # Styling (layout, animations, responsiveness)
+- script.js # Interactive map functionality
+- transport-bg.jpg (background image, optional)
+
+---
