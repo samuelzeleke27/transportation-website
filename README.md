@@ -27,6 +27,12 @@ Website_Pro/
 - **OpenStreetMap tiles** for routes.  
 
 ---
+## How to Run
+1. Clone or download the repository.  
+2. Open `index.html` in your browser.  
+3. Make sure you have an internet connection (for Leaflet & Font Awesome CDNs).  
+
+---
 
 
 
