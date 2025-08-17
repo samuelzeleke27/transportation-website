@@ -10,3 +10,4 @@ It showcases services, routes with an interactive map (Leaflet), company info, a
 - Font Awesome icons for visual elements.  
 
 ---
+## Project Structure
