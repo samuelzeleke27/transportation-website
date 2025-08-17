@@ -18,3 +18,18 @@ Website_Pro/
 - transport-bg.jpg (background image, optional)
 
 ---
+
+## Technologies Used
+- **HTML5** for structure.  
+- **CSS3** for styling, layout, and animations.  
+- **JavaScript (Leaflet.js)** for map integration.  
+- **Font Awesome (via cdnjs)** for icons.  
+- **OpenStreetMap tiles** for routes.  
+
+---
+
+
+
+
+
+
