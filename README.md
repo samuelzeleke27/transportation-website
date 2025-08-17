@@ -33,7 +33,13 @@ Website_Pro/
 3. Make sure you have an internet connection (for Leaflet & Font Awesome CDNs).  
 
 ---
+## Preview
+- Hero section with call-to-action.  
+- Services cards with icons.  
+- Route map showing New York, Chicago, Los Angeles.  
+- About & Contact sections.  
 
+---
 
 
 
